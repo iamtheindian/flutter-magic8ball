@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'ui/randomcolapp.dart';
 
 void main() => runApp(
       MaterialApp(
-        home: null,
+        title: 'magic_8_ball',
+        home: Ball(),
+        debugShowCheckedModeBanner: false,
       ),
     );
